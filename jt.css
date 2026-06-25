@@ -1,0 +1,138 @@
+:root{
+    --primary:#8FD3FF;
+    --dark:#061826;
+    --navy:#0A2A66;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#061826;
+    color:white;
+}
+
+/*main*/
+
+.top-bar{
+    background-color:#0A2A66 ;
+    line-height: 2;
+    color: white;
+    padding: 12px 30px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    background-color: white;
+}
+
+.logo img{
+    width: 150px;
+    height: auto;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 80px;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color: #0A2A66;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Hero */
+.hero{
+    height:70vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background-image: url(/mainimage.png);
+    object-fit: cover;
+    
+}
+
+.hero h2{
+    font-size:3rem;
+}
+
+/* Booking Form */
+.booking{
+    
+    text-align:center;
+    padding-right: 900px;
+}
+
+.booking form{
+    max-width:500px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.booking input,
+.booking select{
+    padding:12px;
+    border:none;
+    border-radius:8px;
+}
+
+.booking button{
+    padding:12px;
+    background:#8FD3FF;
+    color:#061826;
+    border:none;
+    border-radius:8px;
+    font-weight:bold;
+    cursor:pointer;
+}
+ 
+
+
+
+/* Footer */
+
+.foot1{
+    background-color: white;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+p1{
+    color: #0A2A66;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 38px;
+}
+.foot2{
+    text-align:center;
+    padding:20px;
+    background:#0A2A66;
+    line-height: 2;
+}
